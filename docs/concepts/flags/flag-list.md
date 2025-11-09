@@ -11,7 +11,7 @@ sidebar_position: 2
 | invincible                          | prevents players from taking damage                                                        |          beneficial flag           |
 | no-hunger                           | prevents players from getting hungry                                                       |          beneficial flag           |
 | no-knockback                        | prevents players from being knocked back                                                   |          beneficial flag           |
-| break-blocks[¹](Flag_List#notes)    | prevents players from breaking blocks and some block entities                              |                                    |
+| break-blocks[¹](flag-list#notes)    | prevents players from breaking blocks and some block entities                              |                                    |
 | place-blocks                        | prevents players from placing blocks                                                       |                                    |
 | scoop-fluids                        | prevents players from scooping up fluids with buckets                                      |                                    |
 | place-fluids                        | prevents players from placing fluids                                                       |                                    |
@@ -28,7 +28,7 @@ sidebar_position: 2
 | fire-tick                           | prevents fire from spreading and destroying blocks                                         |                                    |
 | walker-freeze                       | prevents frost walker enchanted boots from freezing water                                  |                                    |
 | animal-taming                       | prevents players from taming animals                                                       |                                    |
-| animal-breeding[²](Flag_List#notes) | prevents players from breeding animals                                                     |                                    |
+| animal-breeding[²](flag-list#notes) | prevents players from breeding animals                                                     |                                    |
 | animal-mounting                     | prevents players from mounting animals                                                     |                                    |
 | animal-unmounting                   | prevents players from unmounting animals                                                   |                                    |
 | spawning-all                        | prevents spawning of all entities                                                          |                                    |
@@ -107,5 +107,5 @@ sidebar_position: 2
 ### Notes
 - ¹ Item Frames, Paintings, Leash Knots and Armor Stands are included per default, other Tile Entities need to be added
   to the
-  config [`yawp-flags.toml`](Flag).
+  config [`yawp-flags.toml`](../../config/flag.md).
 - ² Currently this flag does not cover breeding of Foxes when using Fabric

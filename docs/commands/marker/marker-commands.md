@@ -33,11 +33,11 @@ You can obtain the RegionMarker by using the command `/yawp marker give` or by r
 The command `/yawp marker reset` resets the data of the RegionMarker (e.g. marked blocks) if necessary.
 
 The command `/yawp marker create <regionname> [<parent>]` can be used to create a new region, if the marked area is valid.
-See above: [Creating a region with the RegionMarker](marker-commands.md#creating-a-region-with-the-regionmarker).
+See above: [Creating a region with the RegionMarker](marker-commands#creating-a-region-with-the-regionmarker).
 
 ***
 
-# Creating a region with the RegionMarker
+## Creating a region with the RegionMarker
 
 ![](../img/cli-create-local-region.gif)
 

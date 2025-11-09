@@ -11,7 +11,7 @@ YAWP provides three different types of regions to protect your server. Their com
 
 **Owners** - have full control over the region. They can manage flags, members, and children. Owners can also manage the
 state of the region. Since 0.0.4.0-beta1, there is also a config option to enable hierarchical ownership for child
-regions (see: [Config](Permission-Config)).
+regions (see: [Config](../../config/permissions)).
 
 **Members** - Members can bypass flags set in the region. They can't manage the region itself.
 
@@ -27,7 +27,7 @@ Flags can be added and removed like for the Dimensional Regions. The CLI allows 
 
 The picture shows a flag list of a Dimensional Region, but this is equivalent for Local Regions or the Global Region
 
-For more details about flag management, take a look at the [Flags](Flags) page.
+For more details about flag management, take a look at the [Flags](../flags/overview) page.
 
 ![dim-regions](../img/cli-dim-region-info-flags.png)
 ***
@@ -35,7 +35,8 @@ For more details about flag management, take a look at the [Flags](Flags) page.
 
 ![local-region-state](../img/cli-local-region-info-state.png)
 
-The state of a region includes the enabled state and the alert state. If the enabled state is off, the flags are all deactivated. The alert state enables and disables messages sent to the player to inform them that a specific action is denied by a flag in this region.
+The state of a region includes the enabled state and the alert state. If the enabled state is off, the flags are all deactivated. 
+The alert state enables and disables messages sent to the player to inform them that a specific action is denied by a flag in this region.
 
 Local Regions also have a priority to manage overlapping regions. The higher the number, the higher the regions' priority.
 ***
@@ -43,13 +44,15 @@ Local Regions also have a priority to manage overlapping regions. The higher the
 
 ![cli-missing-resource-pack](../img/cli-local-region-info-childs.png)
 
-Local Regions can have a parent. Whenever a new Local Region is created without supplying a parent region, the parent is set to the Dimensional Region which the new Local Region is created in.
+Local Regions can have a parent. Whenever a new Local Region is created without supplying a parent region, 
+the parent is set to the Dimensional Region which the new Local Region is created in.
 
-Local Regions can also have child regions. The children of a Local Regions need to be contained in the area of the parent region. The region hierarchy also defines the region priorities. Child regions always must have a higher priority than their parent.
+Local Regions can also have child regions. The children of a Local Regions need to be contained in the area of the parent region. 
+The region hierarchy also defines the region priorities. Child regions always must have a higher priority than their parent.
 
 Dimensional Regions always have the Global Region as a parent, and thus the Global Region all Dimensional Regions as child regions.
 
 
 ## How is the region data stored?
 
-Take a look [here](Region-Data)
+Take a look [here](../../advanced/region-data.md)

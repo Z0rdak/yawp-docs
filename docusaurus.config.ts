@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.yawp.net',
+  url: 'https://yawp.zordak-modding.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -24,8 +24,10 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'z0rdak', // Usually your GitHub org/user name.
   projectName: 'yawp-docs', // Usually your repo name.
-
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
+
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -33,6 +35,7 @@ const config: Config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+    path: 'i18n'
   },
 
   presets: [
@@ -101,10 +104,6 @@ const config: Config = {
           to: '/blog',
           label: 'Changelog',
           position: 'left'
-        },
-        {
-          position: 'right',
-          type: 'localeDropdown',
         },
         {
           href: 'https://github.com/Z0rdak/Yet-Another-World-Protector',

@@ -1,10 +1,9 @@
 {
   "name": "yawp-docs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start-i18n-de": "docusaurus --locale de",
     "start-i18n-en": "docusaurus --locale en",
     "start": "docusaurus start",
     "build": "docusaurus build",

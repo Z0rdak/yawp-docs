@@ -7,7 +7,8 @@ sidebar_position: 1
 
 The region data is stored as [NBT](https://minecraft.wiki/w/NBT_format) in the data directory of your world.
 
-Although there are some editors out there to edit NBT data, I suggest not changing it manually, unless you know what you are doing. It may lead to region data loss.
+Although there are some editors out there to edit NBT data, I suggest not changing it manually, unless you know what you are doing. 
+It may lead to region data loss.
 
 ## Region data saving
 
@@ -32,7 +33,7 @@ Older YAWP versions save the region data in one single file named `yawp-dimensio
 The region data is saved across multiple file, all stored in directory called `yawp` (see [screenshot](./img/new-data-storage.png) below).
 
 - `dimensions.dat` : Stores a list of dimensions/levels managed by YAWP.
-- `global.dat` : Stores the region data for the [Global Region](Global-Region)
+- `global.dat` : Stores the region data for the [Global Region](../concepts/regions/overview)
 
 Additionally, there is one file, for every dimension/level managed by YAWP. Those are named like the dimension/level itself.
 

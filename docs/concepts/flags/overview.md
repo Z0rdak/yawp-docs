@@ -9,7 +9,7 @@ Flags are the core of the region protection system. They define which actions ar
 - **Denied**, to deny the corresponding action,
 - **Disabled**, to disable the specific flag for flag checks.
 
-There are some flags marked as **beneficial** which are activated by setting them to **Allowed**. This includes for example the `keep-inv` and `no-hunger` flags. Reference the **[Flag list](Flag_List)** for more information.
+There are some flags marked as **beneficial** which are activated by setting them to **Allowed**. This includes for example the `keep-inv` and `no-hunger` flags. Reference the **[Flag list](flag-list)** for more information.
 Flags can be set for all kind of regions. The flags are inherited by child regions from their parents.
 Additionally, it is possible to override the flag state for child regions by setting the **override** property of the flag of the parent region accordingly.
 
@@ -19,11 +19,11 @@ Additionally, it is possible to override the flag state for child regions by set
 
 Currently, there are **90+ flags** available.
 
-Take a look here on how to [add](Commands#flag-commands) and [manage](Flag-Commands) flags for your regions.
+Take a look here on how to [add](../../commands/region/overview) and [manage](../../commands/flag/flag-commands)  flags for your regions.
 
 Due to implementation details, the available flags differ slightly between versions. The goal is to achieve consistent behavior of the flags between Forge and Fabric.
 
-Please refer to the **[Flag list](Flag_List)** regarding any note on the flags.
+Please refer to the **[Flag list](flag-list)** regarding any note on the flags.
 
 ***
 

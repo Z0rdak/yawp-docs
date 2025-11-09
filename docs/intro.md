@@ -33,9 +33,9 @@ ___
 
 There are three different types of regions to protect your server:
 
-- [**Local Regions**](concepts/regions/overview): Also known as **Claims** or **Plots** are area restricted zones in your world. The area of a region can be defined using a Cuboid or Sphere. More details [**here**](regions/Dimensional-Region).
-- [**Dimensional Regions**](concepts/regions/overview): Dimensional Regions have no area restrictions. They work like Local Regions, but are tied to a whole dimension. More details [**here**](regions/Dimensional-Region).
-- [***The* Global Region**](concepts/regions/overview): The Global Region affects the whole server. It is the parent region to **all** Dimensional Regions. More details [**here**](regions/Global-Region).
+- [**Local Regions**](concepts/regions/overview): Also known as **Claims** or **Plots** are area restricted zones in your world. The area of a region can be defined using a Cuboid or Sphere. More details [**here**](concepts/regions/overview).
+- [**Dimensional Regions**](concepts/regions/overview): Dimensional Regions have no area restrictions. They work like Local Regions, but are tied to a whole dimension. More details [**here**](concepts/regions/overview).
+- [***The* Global Region**](concepts/regions/overview): The Global Region affects the whole server. It is the parent region to **all** Dimensional Regions. More details [**here**](concepts/regions/overview).
 
 ### Region Quick Tips
 - [**Flags**](concepts/flags/overview) can be added to regions to prevent various actions and events.
