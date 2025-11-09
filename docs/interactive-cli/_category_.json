@@ -1,0 +1,8 @@
+{
+  "label": "Interactive CLI",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Why typing commands if you can just click links?"
+  }
+}

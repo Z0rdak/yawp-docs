@@ -1,0 +1,30 @@
+changelog:
+  label: Changelog
+  permalink: /changelog
+  description: Changelog version entries
+
+beta:
+  label: Beta
+  permalink: /beta
+  description: Beta version entries
+
+added:
+  label: Added
+  permalink: /added
+  description: Version contains new additions
+
+
+changed:
+  label: Changed
+  permalink: /changed
+  description: Version contains changes
+
+removed:
+  label: Removed
+  permalink: /removed
+  description: Version got something removed
+
+fixed:
+  label: Fixed
+  permalink: /fixed
+  description: Version contains fixes

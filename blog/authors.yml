@@ -1,0 +1,12 @@
+zordak:
+  name: Zordak
+  title: Mod Author
+  url: https://github.com/Z0rdak
+  # TODO: image_url later pointing to yawp-doc repo
+  image_url: https://raw.githubusercontent.com/Z0rdak/Yet-Another-World-Protector/refs/heads/multi/1.20.1/common/src/main/resources/logo.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-about-zordak'
+  socials:
+    github: Z0rdak
+    discord: https://discord.gg/d7hArKCUtm
