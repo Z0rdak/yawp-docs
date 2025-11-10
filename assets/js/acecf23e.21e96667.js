@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkyawp_docs=globalThis.webpackChunkyawp_docs||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/yawp-docs/changelog","blogTitle":"Changelog","authorsListPath":"/yawp-docs/changelog/authors"}')}}]);
