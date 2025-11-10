@@ -1,7 +1,6 @@
 ---
 title: 'Installation'
 description: 'Guide to set up YAWP for your server'
-
 sidebar_label: 'Setting up YAWP'
 sidebar_position: 1
 sidebar_custom_props:

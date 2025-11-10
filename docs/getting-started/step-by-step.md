@@ -2,7 +2,7 @@
 title: 'Step-By-Step Guide'
 description: 'Step-By-Step guide on how to set up YAWP'
 sidebar_label: 'Step-by-Step'
-sidebar_position: 2
+sidebar_position: 3
 sidebar_custom_props:
    customEmoji: 🏃‍♂️‍➡️
 ---

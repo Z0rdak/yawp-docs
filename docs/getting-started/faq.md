@@ -1,7 +1,10 @@
 ---
-title: FAQ
+title: 'Frequently Asked Questions'
 description: 'Frequently Asked Questions'
-hide_table_of_contents: true
+sidebar_label: 'FAQs'
+sidebar_position: 4
+sidebar_custom_props:
+    customEmoji: ⁉️
 ---
 
 ## Frequently Asked Questions

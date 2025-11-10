@@ -118,6 +118,11 @@ const config: Config = {
         },
         {
           href: 'https://github.com/Z0rdak/Yet-Another-World-Protector',
+          label: 'Discord',
+          position: 'right',
+        },
+        {
+          href:  'https://discord.gg/d7hArKCUtm',
           label: 'GitHub',
           position: 'right',
         },
@@ -144,29 +149,21 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Get involved!',
           items: [
             {
               label: 'Discord',
               href: 'https://discord.gg/d7hArKCUtm',
-            }
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Changelog',
-              to: '/changelog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Z0rdak/Yet-Another-World-Protector',
             },
             {
               label: 'Issues',
               href: 'https://github.com/Z0rdak/Yet-Another-World-Protector/issues',
             },
+          ],
+        },
+        {
+          title: 'Get the mod!',
+          items: [
             {
               label: 'Curseforge',
               href: 'https://www.curseforge.com/minecraft/mc-mods/yawp',

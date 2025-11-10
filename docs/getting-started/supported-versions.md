@@ -1,7 +1,11 @@
 ---
-sidebar_position: 1
+title: 'Supported Versions'
+description: 'Supported Versions'
+sidebar_label: 'Versions'
+sidebar_position: 3
+sidebar_custom_props:
+  customEmoji: 🤖
 ---
-
 
 # Supported versions
 

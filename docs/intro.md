@@ -1,8 +1,9 @@
 ---
+title: 'Introduction'
+description: 'YAWP mod documentation'
+sidebar_label: 'Introduction'
 sidebar_position: 1
 ---
-
-# Documentation
 
 Yet Another World Protector, or YAWP for short, is a server-side mod (plugin), for Fabric, Forge and NeoForge, which allows you to protect your creations against various different events/actions of players, mobs and the environment.
 
