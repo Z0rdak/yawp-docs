@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Yet Another World Protector (YAWP) Blog</title>
-        <link>https://z0rdak.github.io/yawp-docs/blog</link>
+        <link>https://z0rdak.github.io/YAWP-Docs/blog</link>
         <description>Yet Another World Protector (YAWP) Blog</description>
         <lastBuildDate>Thu, 30 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,21 +10,21 @@
         <language>en</language>
         <item>
             <title><![CDATA[0.6.2-beta1]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.6.2-beta1</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.6.2-beta1</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.6.2-beta1</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.6.2-beta1</guid>
             <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Added]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.2-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.2-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add flag <code>no-hunger</code> and <code>keep-inv</code> back.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.2-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.2-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Set default value for <code>op_bypass_flags</code> to <code>false</code> in <code>yawp-common.toml</code> to prevent unexpected behavior for server operators.</li>
 <li class="">Add flag command no longer supports the override argument. This caused confusion when adding flags.</li>
 <li class="">Rename flag <code>knockback-players</code> to <code>no-knockback</code>. Clarification: It prevents players from being knocked back.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.2-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.2-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix issues loading region data (again) causing region data loss.</li>
 <li class="">Fix flags considered <em>beneficial</em> for players not working as intended. This includes, beside others:<!-- -->
@@ -46,16 +46,16 @@
         </item>
         <item>
             <title><![CDATA[0.6.1-beta1]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.6.1-beta1</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.6.1-beta1</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.6.1-beta1</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.6.1-beta1</guid>
             <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Changed]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.1-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.1-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Backport region saving changes from 0.5.3-beta1 to 1.20.1, 1.21.1 and 1.21.4. Note: This is a breaking change for those versions and will result in region data loss.</li>
 <li class="">Placeholders for FlagMessages have changed to use position arguments: <code>%1$s</code> instead of <code>{flag}</code>. Refer to the wiki for more information.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.1-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.1-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix broken default values for region display data.</li>
 <li class="">Fix serialization issue causing region data loss</li>
@@ -67,11 +67,11 @@
         </item>
         <item>
             <title><![CDATA[0.6.0-beta1]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1</guid>
             <pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Added]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add new flag <code>fire-bow</code>, which prevents players from shooting bows/crossbows in the region. This flag does not protect form being shot form outside the region.</li>
 <li class="">The <code>no-pvp</code> flag no protects against a selected set of projectiles:<!-- -->
@@ -87,7 +87,7 @@
 <li class="">Add new config to disable flags impacting performance in <code>yawp-flags.toml</code>: <code>disabled_flags</code> by default this list is empty. Any flag added to this list will be completely disabled by default.
 <em>Implementation note</em>: This means the check for regions containing those flags in event handlers or mixins are skipped in the first place. This does not prevent the mixins from being applied or the event handlers from being registered. This is planned for the future though.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="multiple-named-teleport-anchors-for-local-regions">Multiple, named teleport anchors for Local Regions.<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1#multiple-named-teleport-anchors-for-local-regions" class="hash-link" aria-label="Direct link to Multiple, named teleport anchors for Local Regions." title="Direct link to Multiple, named teleport anchors for Local Regions." translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="multiple-named-teleport-anchors-for-local-regions">Multiple, named teleport anchors for Local Regions.<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1#multiple-named-teleport-anchors-for-local-regions" class="hash-link" aria-label="Direct link to Multiple, named teleport anchors for Local Regions." title="Direct link to Multiple, named teleport anchors for Local Regions." translate="no">​</a></h3>
 <p>This replaces the old teleport position for regions. In turn the old position has been removed from the RegionMarker, the CLI and commands.</p>
 <ul>
 <li class="">Add commands and CLI support to manage teleport anchors.</li>
@@ -101,7 +101,7 @@
 <li class="">Add command <code>/yawp local &lt;dim&gt; &lt;local&gt; tp-anchor hide &lt;name&gt;</code> to hide the visualization of the specified teleport anchor.</li>
 <li class="">Add command <code>/yawp local &lt;dim&gt; &lt;local&gt; tp-anchor tp &lt;name&gt; [&lt;player&gt;]</code> to teleport to the specific teleport anchor.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="region-visualization">Region Visualization<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1#region-visualization" class="hash-link" aria-label="Direct link to Region Visualization" title="Direct link to Region Visualization" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="region-visualization">Region Visualization<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1#region-visualization" class="hash-link" aria-label="Direct link to Region Visualization" title="Direct link to Region Visualization" translate="no">​</a></h3>
 <p>Local Regions can now be visualized in your world. This is done using Display Entities (see: <a href="https://minecraft.wiki/w/Display#Block_Displays" target="_blank" rel="noopener noreferrer" class="">https://minecraft.wiki/w/Display#Block_Displays</a>).
 The properties of these entities (e.g. which block to show, etc.) can be configured for each region.</p>
 <p>Those display entities are not currently tracked between server restarts. This means you might need to nuke those entities from time to time when they can't be removed/hidden by the commands provided below. A future update will bring per-player tracking of display entities for a more streamlined experience.
@@ -156,7 +156,7 @@ Use the following command to nuke them easily:</p>
 <p>Add command <code>/yawp local &lt;dim&gt; &lt;local&gt; show intersecting [Hull|Frame|Minimal|Marked]</code> show the visualization regions intersecting with this region with the specified display type.</p>
 </li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shortcut-commands">Shortcut commands<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1#shortcut-commands" class="hash-link" aria-label="Direct link to Shortcut commands" title="Direct link to Shortcut commands" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shortcut-commands">Shortcut commands<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1#shortcut-commands" class="hash-link" aria-label="Direct link to Shortcut commands" title="Direct link to Shortcut commands" translate="no">​</a></h3>
 <p>Additionally, there are new shortcut commands for usage in the current dimension. Some of those commands can not be used through the console or command blocks.</p>
 <ul>
 <li class="">Add command <code>/yawp info &lt;region-name&gt;</code> - to show info about the specified region.</li>
@@ -168,11 +168,11 @@ Use the following command to nuke them easily:</p>
 <li class="">Add command <code>/yawp show local &lt;region-name&gt; [&lt;frame|hull|marked|minmal&gt;]</code> - show local region with specified name and optional display style.</li>
 <li class="">Add command <code>/yawp show near [&lt;radius&gt;] [&lt;frame|hull|marked|minmal&gt;]</code> - show all regions within the given radius and display style, with the executor as origin position. Radius defaults to 192 and display type defaults to frame.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Overhauled some visual aspects of the CLI. This does not impact the functionality.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed">Removed<a href="https://z0rdak.github.io/yawp-docs/blog/0.6.0-beta1#removed" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed">Removed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.6.0-beta1#removed" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
 <ul>
 <li class="">Removed the command to update a sphere are by providing two block positions. Its now done by providing a new radius only.</li>
 </ul>]]></content:encoded>
@@ -184,15 +184,15 @@ Use the following command to nuke them easily:</p>
         </item>
         <item>
             <title><![CDATA[0.5.3-beta2]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta2</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta2</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta2</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta2</guid>
             <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Changed]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta2#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta2#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Disable <code>keep_inv</code> and <code>no_hunger</code> flag for now until its fixed properly.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta2#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta2#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix <code>animal-breeding</code> flag not considering player permissions</li>
 <li class="">Fix <code>invincible</code> flag not considering player permissions</li>
@@ -212,17 +212,17 @@ Use the following command to nuke them easily:</p>
         </item>
         <item>
             <title><![CDATA[0.5.3-beta1]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta1</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta1</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta1</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta1</guid>
             <pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[This version states the changes need for the YAWP port for Minecraft 1.21.5.]]></description>
             <content:encoded><![CDATA[<p>This version states the changes need for the YAWP port for Minecraft 1.21.5.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Italian translation. Thanks to ZIOMARK#1358</li>
 <li class="">Brazilian Portuguese translation. Thanks to MATIASTGM#7157</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>Breaking changes</strong> to region data saving and loading!</li>
 <li class=""><code>yawp-dimensions.dat</code> is split up in multiple files:<!-- -->
@@ -233,7 +233,7 @@ Use the following command to nuke them easily:</p>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.3-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.3-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix CME during region hierarchy resolving, causing server to crash on startup</li>
 </ul>]]></content:encoded>
@@ -244,11 +244,11 @@ Use the following command to nuke them easily:</p>
         </item>
         <item>
             <title><![CDATA[0.5.2-beta4]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta4</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta4</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta4</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta4</guid>
             <pubDate>Sun, 23 Feb 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Changed]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta4#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta4#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Disabled compat with <a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic" target="_blank" rel="noopener noreferrer" class="">Snow! Real Magic!</a> to prevent crashes.</li>
 </ul>]]></content:encoded>
@@ -258,15 +258,15 @@ Use the following command to nuke them easily:</p>
         </item>
         <item>
             <title><![CDATA[0.5.2-beta3]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta3</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta3</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta3</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta3</guid>
             <pubDate>Sat, 22 Feb 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Added]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta3#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta3#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add simplified chinese localization. Thank you very much kaixue#6395!</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta3#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta3#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">(1.21.1+) Fix crash when adding player by-uuid or by-name, thanks legenden#7526! (<a href="https://github.com/Z0rdak/Yet-Another-World-Protector/pull/155" target="_blank" rel="noopener noreferrer" class="">PR#155</a>)</li>
 <li class="">(1.20.1, 1.21.1) Crash due to prev added compat with <a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic" target="_blank" rel="noopener noreferrer" class="">Snow! Real Magic!</a></li>
@@ -278,21 +278,21 @@ Use the following command to nuke them easily:</p>
         </item>
         <item>
             <title><![CDATA[0.5.2-beta2]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta2</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta2</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta2</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta2</guid>
             <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Added]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta2#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta2#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add config option to disable RegionMarker creation through renaming a Stick in an Anvil</li>
 <li class="">Add compat with <a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic" target="_blank" rel="noopener noreferrer" class="">Snow! Real Magic!</a> - closes <a href="https://github.com/Z0rdak/Yet-Another-World-Protector/issues/152" target="_blank" rel="noopener noreferrer" class="">Issue #152</a></li>
 <li class="">Add new <code>playerHasBypassPermission(IProtectedRegion, Player);</code> in <code>de.z0rdak.yawp.api.permission</code>.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta2#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta2#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">(API) Reworked and moved around some helpers for flag checking</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta2#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta2#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">(Fabric) Fix <code>spawning-all</code> flag not excluding item entities. This fixes item deleting when using this flag in combination with the <code>item-drop</code> flag.</li>
 <li class="">Fix item entities or entities like armor stand, paintings, etc. de-spawning when adding <code>spawning-all</code> flag to a region.</li>
@@ -308,11 +308,11 @@ Use the following command to nuke them easily:</p>
         </item>
         <item>
             <title><![CDATA[0.5.2-beta1]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta1</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta1</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta1</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta1</guid>
             <pubDate>Fri, 14 Feb 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Added]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Contributions guideline (CONTRIBUTING.md)</li>
 <li class="">(<strong>API</strong>) Add getting started section in README</li>
@@ -327,17 +327,17 @@ Use the following command to nuke them easily:</p>
 </li>
 <li class="">Added additional command for region deletion in local region commands: <code>/yawp local &lt;dim&gt; &lt;region&gt; delete -y</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Disable flag check/result logging by default</li>
 <li class="">Improve hint and add link to add flag when it does not exist in region</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed">Removed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta1#removed" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed">Removed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta1#removed" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
 <ul>
 <li class="">Remove <code>/wp</code> command alternative and switch to just <code>/yawp</code> as the base cmd. This prevents trouble regarding the config and command registration and as well as questions why commands not work (looking at you JourneyMap!)</li>
 <li class="">Remove <code>wp_root_command</code> config option from <code>yawp-common.toml</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.2-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.2-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix project setup not working on MAC due to missing dependencies. Added minecraft repo, to include lwjgl files to allow booting. <a href="https://github.com/Z0rdak/Yet-Another-World-Protector/pull/143" target="_blank" rel="noopener noreferrer" class="">PR#143</a></li>
 <li class="">Fix RegionMarker not resetting</li>
@@ -353,11 +353,11 @@ Use the following command to nuke them easily:</p>
         </item>
         <item>
             <title><![CDATA[0.5.1-beta4]]></title>
-            <link>https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4</link>
-            <guid>https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4</guid>
+            <link>https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4</link>
+            <guid>https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4</guid>
             <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Fixed]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">(Fabric) Fix place-block flag target position being calculated incorrectly</li>
 <li class="">Fix explosion flag causing npe</li>
@@ -366,31 +366,31 @@ Use the following command to nuke them easily:</p>
 <li class="">(Fabric) Fix missing UpdateArea event implementation</li>
 </ul>
 <h1>[0.5.1-beta3] - 2025-01-27</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-1">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-1" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-1">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-1" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix NPE when updating area</li>
 </ul>
 <h1>[0.5.1-beta2] - 2025-01-26</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-2">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-2" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-2">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-2" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix NPE causing crash on explosions</li>
 </ul>
 <h1>[0.5.1-beta1] - 2025-01-23</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add language support for euskara (aka. basque) and spanisch. Thanks to Jaie55#8188 for this contribution</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Update russian language - thanks again Reincarnaciya</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-3">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-3" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-3">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-3" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix neoforge crashing due to mixin error</li>
 <li class="">Fix explosion flags not working (this time for real)</li>
 </ul>
 <h1>[0.5.0-beta2] - 2025-01-20</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-4">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-4" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-4">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-4" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix old flags not being automatically removed during loading</li>
 <li class="">(Fabric) Fix explosion flags not working</li>
@@ -412,7 +412,7 @@ for both platforms</li>
 <li class="">Shared Resources: Assets, configs, and data files are now shared across mod loader platforms, reducing project size
 and redundancy</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-1">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-1" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-1">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-1" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add new flags: <code>no-sign-edit</code>, <code>snow-melt</code>, <code>snow-fall</code>, <code>fluid-flow</code>, <code>lava-flow</code>, <code>water-flow</code>. Thanks to Magnus Jensen aka. legenden#7526!</li>
 <li class="">New iteration of the programming API. This includes new events, an API to query regions, change them and save them.</li>
@@ -435,7 +435,7 @@ implement e.g. a profanity filter.</li>
 <li class="">Add builder to easily create multiline and pagination text components. This might be further polished and extracted into the API. Currently, this is located in <code>de.z0rdak.yawp.util.text</code>.</li>
 <li class="">Add new mod logo</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-1">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-1" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-1">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-1" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Switch whole project to use the official mojang mapping instead of yarn mappings</li>
 <li class="">Update some flag lang keys to highlight the flag name in blue color</li>
@@ -444,35 +444,35 @@ implement e.g. a profanity filter.</li>
 <li class="">Ditched forge suggestion for versioning schema. It's now back to <a href="https://keepachangelog.com/en/1.0.0/" target="_blank" rel="noopener noreferrer" class="">https://keepachangelog.com/en/1.0.0/</a></li>
 <li class="">Change configs from server to common type. This means that config should no longer be synced to clients. As it should be. The clients will have the config by default, but it will be useless for them.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-5">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-5" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-5">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-5" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix animal and monster check to exclude/include monster horses correctly</li>
 <li class="">Fix <code>explosions-entities</code> and <code>explosions-blocks</code> not working correctly</li>
 <li class="">Fix <code>fall-damage-players</code> not working correctly</li>
 <li class="">Fix <code>no-pvp</code> flag not checking for damage source to be a player</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed">Removed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#removed" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed">Removed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#removed" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
 <ul>
 <li class="">Remove old mod logo</li>
 <li class="">Remove <code>other-explosion-blocks</code> flag (was redundant)</li>
 <li class="">Remove <code>other-explosion-entities</code> flag (was redundant)</li>
 </ul>
 <h1>[0.0.4.1-beta5] - 2024-10-09</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-6">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-6" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-6">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-6" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix error <code>This position is not loaded</code> when trying to create a region or changing region area.</li>
 </ul>
 <h1>[0.0.4.1-beta4] - 2024-10-04</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-7">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-7" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-7">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-7" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">[Fabric] Fix NPE caused by null entity in mixin for ServerLevel::explode</li>
 </ul>
 <h1>[0.0.4.1-beta3] - 2024-10-04</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-2">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-2" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-2">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-2" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add option to only log certain FlagStates for FlagCheckResults (Allowed and/or Denied)</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-2">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-2" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-2">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-2" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Formatting of flag messages can now be done by using <code>&amp;</code> and <code>§</code> as prefix. E.g.:<!-- -->
 <ul>
@@ -481,27 +481,27 @@ implement e.g. a profanity filter.</li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-8">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-8" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-8">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-8" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">[Fabric] Fix 'spawning-*' flags preventing all entities from spawning</li>
 <li class="">Fix wrong FlagCheckResult state being logged</li>
 </ul>
 <h1>[0.0.4.1-beta2] - 2024-09-23</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-9">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-9" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-9">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-9" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">[Fabric] Fix <code>use-elytra</code> flag not working</li>
 <li class="">[Fabric] Fix <code>set-spawn</code> flag not working</li>
 <li class="">[Fabric] Fix <code>sleep</code> flag not working</li>
 </ul>
 <h1>[0.0.4.1-beta1] - 2024-09-20</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-3">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-3" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-3">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-3" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add Traditional Chinese localization. Thank you very much @dirttw!</li>
 <li class="">Debug logging for flag checks and most player related flags.</li>
 <li class="">Add config for logging. You are able to log only certain flags or flag categories.</li>
 <li class="">[Fabric] Add <code>place-fluid</code> and <code>scoop-fluid</code> flag, bringing flag consistency with forge version of the mod.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-3">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-3" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-3">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-3" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">The <code>lightning</code> flag now also prevents lightning strikes not hitting entities, prevents creation of fire blocks and
 de-oxidation of copper blocks. These additional features may be split in separate flags down the road.</li>
@@ -509,7 +509,7 @@ de-oxidation of copper blocks. These additional features may be split in separat
 chests).</li>
 <li class="">The mod file now includes the license, readme, credits and this changelog.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-10">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-10" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-10">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-10" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix bug which prevented removing from child regions with sphere area type</li>
 <li class="">Fix undo link for flag state setting</li>
@@ -520,11 +520,11 @@ chests).</li>
 <li class="">[Fabric] Fix inventory desync when using <code>place-blocks</code> flag.</li>
 </ul>
 <h1>[0.0.4.0-beta2] - 2024-08-18</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-4">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-4" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-4">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-4" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">The error message for creating a region now specifies whether the parent region is unsuitable due to permission issues or because it doesn't contain the child region.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-11">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-11" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-11">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-11" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix ResourceLocation/Identifier entries in <code>covered_block_entities</code> not correctly considered in some versions (1.20+).</li>
 <li class="">Tags included in the list <code>covered_block_entity_tags</code> inside the config <code>yawp-flags.toml</code> are now considered for the <code>break-blocks</code> and <code>place-blocks</code> flag</li>
@@ -551,7 +551,7 @@ time to enable new features and to improve the mod.</p>
 <p><strong>the structure and naming of some commands</strong> - which have changed to be more consistent</p>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-4">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-4" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-4">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-4" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add commands to copy and clear region properties</li>
 <li class="">Add enhanced flag management and messages</li>
@@ -562,7 +562,7 @@ time to enable new features and to improve the mod.</p>
 result of a check and manipulate the outcome.</li>
 <li class="">Add new config options</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="copy-region-properties">Copy region properties<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#copy-region-properties" class="hash-link" aria-label="Direct link to Copy region properties" title="Direct link to Copy region properties" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="copy-region-properties">Copy region properties<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#copy-region-properties" class="hash-link" aria-label="Direct link to Copy region properties" title="Direct link to Copy region properties" translate="no">​</a></h3>
 <ul>
 <li class="">
 <p>Add new command to copy properties from one Local Region to another Local Region:</p>
@@ -598,7 +598,7 @@ a specific group (members, owners) add it as optional parameter</li>
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enhanced-flags">Enhanced Flags<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#enhanced-flags" class="hash-link" aria-label="Direct link to Enhanced Flags" title="Direct link to Enhanced Flags" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enhanced-flags">Enhanced Flags<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#enhanced-flags" class="hash-link" aria-label="Direct link to Enhanced Flags" title="Direct link to Enhanced Flags" translate="no">​</a></h3>
 <ul>
 <li class="">
 <p>Flags now have their own dedicated flag message which is shown when the flag is triggered.</p>
@@ -667,7 +667,7 @@ description of possible placeholders for messages.</li>
 <li class=""><code>/wp flag dim ...</code> to manage flag properties for a Dimensional Region</li>
 <li class=""><code>/wp flag global ...</code> to manage flag properties for the Global Region</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="flag-inheritance--overriding-for-regions">Flag inheritance &amp; overriding for regions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#flag-inheritance--overriding-for-regions" class="hash-link" aria-label="Direct link to Flag inheritance &amp; overriding for regions" title="Direct link to Flag inheritance &amp; overriding for regions" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="flag-inheritance--overriding-for-regions">Flag inheritance &amp; overriding for regions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#flag-inheritance--overriding-for-regions" class="hash-link" aria-label="Direct link to Flag inheritance &amp; overriding for regions" title="Direct link to Flag inheritance &amp; overriding for regions" translate="no">​</a></h3>
 <ul>
 <li class="">Child regions now inherit the flags of their parent regions. This means that every region will also inherit the flags
 of the corresponding Dimensional region and the Global Region.</li>
@@ -694,7 +694,7 @@ region, including the flags of the parent regions.</li>
 <li class="">Flags now have an internal category. This info will also be added to the wiki. The categories are a change to allow
 some other features to be added in the future. The categories are not final and may still change.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sphere-local-region">Sphere Local Region<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#sphere-local-region" class="hash-link" aria-label="Direct link to Sphere Local Region" title="Direct link to Sphere Local Region" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sphere-local-region">Sphere Local Region<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#sphere-local-region" class="hash-link" aria-label="Direct link to Sphere Local Region" title="Direct link to Sphere Local Region" translate="no">​</a></h3>
 <ul>
 <li class="">Sphere Local Regions are now available. The sphere is defined by the center and the radius. The radius can either be
 defined by a BlockPos or the radius size. Note that the radius is not counting the center block. Because of this, it
@@ -709,7 +709,7 @@ is only possible to create spheres with an odd diameter.</li>
 <li class="">You can change the area type of the region area at any time from a Cuboid to a Sphere and back.</li>
 <li class="">Support to create Spherical Regions with the RegionMarker will be added soon</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="config">Config<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#config" class="hash-link" aria-label="Direct link to Config" title="Direct link to Config" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="config">Config<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#config" class="hash-link" aria-label="Direct link to Config" title="Direct link to Config" translate="no">​</a></h3>
 <ul>
 <li class=""><code>yawp-common.toml</code> - Add new permission config:<!-- -->
 <ul>
@@ -731,7 +731,7 @@ ownership of parent regions will automatically (implicit) apply to child regions
 </li>
 <li class=""><code>break_flag_entities</code> and <code>break_flag_entity_tags</code> are now also used for the <code>place-blocks</code> flag.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="global-region">Global Region<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#global-region" class="hash-link" aria-label="Direct link to Global Region" title="Direct link to Global Region" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="global-region">Global Region<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#global-region" class="hash-link" aria-label="Direct link to Global Region" title="Direct link to Global Region" translate="no">​</a></h3>
 <ul>
 <li class="">The Global Region has the same properties as the Dimensional Regions but is not limited to one dimension. It is the
 parent region of all Dimensional Regions and considered everywhere for flag checks.</li>
@@ -749,7 +749,7 @@ parent region of all Dimensional Regions and considered everywhere for flag chec
 </li>
 <li class="">Add interactive CLI support for the Global Region</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="api">API<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#api" class="hash-link" aria-label="Direct link to API" title="Direct link to API" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="api">API<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#api" class="hash-link" aria-label="Direct link to API" title="Direct link to API" translate="no">​</a></h3>
 <ul>
 <li class="">Add FlagCheckEvent. This event is fired before a flag is checked. It can be canceled and in the progress can be used
 to cancel the flag check entirely.</li>
@@ -761,7 +761,7 @@ canceled to prevent the update.</li>
 <li class="">Add RenameRegion event as subtype of RegionEvent. This event is fired whenever a region is renamed. It can be
 canceled to prevent the renaming.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="commands">Commands<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#commands" class="hash-link" aria-label="Direct link to Commands" title="Direct link to Commands" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="commands">Commands<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#commands" class="hash-link" aria-label="Direct link to Commands" title="Direct link to Commands" translate="no">​</a></h3>
 <ul>
 <li class="">You can now add multiple flags at once by using the new command syntax:<!-- -->
 <ul>
@@ -835,7 +835,7 @@ canceled to prevent the renaming.</li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-5">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-5" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-5">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-5" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">YAWP can now be used in single-player (open to LAN) worlds. It is still a server-side only mod, but now also works for
 integrated servers / LAN worlds and single player worlds.</li>
@@ -905,11 +905,11 @@ examples.</li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed-1">Removed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#removed-1" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed-1">Removed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#removed-1" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
 <ul>
 <li class="">Remove UpdateRegionEvent introduced in 0.0.3.0-beta1. This is replaced by the UpdateArea and RenameRegion events.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-12">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-12" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-12">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-12" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix some cli typos</li>
 <li class="">Fix parent - child hierarchy inconsistency when deleting children</li>
@@ -922,7 +922,7 @@ examples.</li>
 parent region</li>
 </ul>
 <h1>[0.0.3.0-beta1] - 2024-03-27</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-5">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-5" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-5">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-5" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add first basic draft for an API to manage
 regions <a href="https://github.com/Z0rdak/Yet-Another-World-Protector/pull/105" target="_blank" rel="noopener noreferrer" class="">Pull Request #105</a>. Thank you very much!</li>
@@ -933,12 +933,12 @@ canceled.</li>
 <li class="">Implement DeleteRegion event which is fired whenever a region is deleted. This event can be canceled to prevent the
 deletion.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-6">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-6" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-6">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-6" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Bump forge version to latest</li>
 </ul>
 <h1>[0.0.2.9-beta3] - 2023-08-12</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-13">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-13" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-13">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-13" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">[Forge] Fix place-blocks and no-walker-freeze flags not working together properly</li>
 <li class="">[Fabric] Fix spawning-all flag destroying thrown out items</li>
@@ -950,42 +950,42 @@ deletion.</li>
 <li class="">Fix typos</li>
 </ul>
 <h1>[0.0.2.9-beta2] - 2023-06-11</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-6">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-6" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-6">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-6" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">[1.19.4+] Add default english fallback translation</li>
 </ul>
 <h1>[0.0.2.9-beta1] - 2023-06-09</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-7">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-7" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-7">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-7" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">[Fabric] Add <code>mob-griefing</code>, <code>enderman-griefing</code> and <code>zombie-destruction</code> flag. Ported by petersv5 aka. ptefar -
 thanks a lot!</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-7">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-7" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-7">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-7" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">Change default value for config <code>command_op_level</code> back to 4. This caused many players to struggle with setting up the
 mod in the first place.
 With the default 4 we assume that the player setting up the server is OP lvl 4 and thus admin.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-14">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-14" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-14">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-14" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">[Forge] Replace mixin for <code>walker-freeze</code> flag with forge event. This should solve #85.</li>
 </ul>
 <h1>[0.0.2.8-beta2] - 2023-04-21</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix rare NPE occurring because of random event handler order.</li>
 <li class="">Fix region command permission not working.</li>
 <li class="">Fix region owners not be considered for command permission when having <code>allow_info_cmds</code> set to <code>false</code>.</li>
 </ul>
 <h1>[0.0.2.8-beta1] - 2023-04-14</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-8">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-8" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-8">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-8" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">Add <code>leaf-decay</code> flag (#66).</li>
 <li class="">Add <code>fire-tick</code> flag (#66).</li>
 <li class="">Add <code>walker-freeze</code> flag (#66).</li>
 <li class="">YAWP now detects whether Journey Map is loaded alongside it and sets the base command to <code>/yawp</code>.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-15">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-15" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-15">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-15" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix YAWP commands being unregistered upon using <code>/reload</code>. This fixes the issue with using Ice &amp; Fire together with
 YAWP (#75).</li>
@@ -993,7 +993,7 @@ YAWP (#75).</li>
 <li class="">Fix <code>ignite-explosives</code> causing the server to crash.</li>
 </ul>
 <h1>[0.0.2.7-beta2] - 2023-04-09</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-16">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-16" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-16">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-16" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix YAWP flags not working due to configuration errors (damn mixins!)</li>
 </ul>
@@ -1001,7 +1001,7 @@ YAWP (#75).</li>
 <p>From now on this changelog will use the keep a changelog format: <a href="https://keepachangelog.com/en/1.0.0/" target="_blank" rel="noopener noreferrer" class="">https://keepachangelog.com/en/1.0.0/</a>. YAWP is still
 following the schematic versioning suggested by
 forge: <a href="https://docs.minecraftforge.net/en/1.19.x/gettingstarted/versioning/" target="_blank" rel="noopener noreferrer" class="">https://docs.minecraftforge.net/en/1.19.x/gettingstarted/versioning/</a>.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-9">Added<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#added-9" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added-9">Added<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#added-9" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
 <ul>
 <li class="">CLI: Region state quick-link &amp; command enhancements: <code>/wp region &lt;dim&gt; &lt;region&gt; state enable|alert</code>
 and <code>/wp dim &lt;dim&gt; enable</code> now can be used without providing the new state (you can still provide the state explicitly
@@ -1012,7 +1012,7 @@ adjusted accordingly.</li>
 <li class="">Spawning-related flags now despawns all entities in the Dimensional Region, which are covered by the flag (exluding
 entities in the Local Regions without the flag).</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-8">Changed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changed-8" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed-8">Changed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changed-8" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
 <ul>
 <li class="">CLI: All remove commands will now run the command immediately instead of suggesting it. (#63)</li>
 <li class="">Breaking change: Unified flag naming. Replaced all <code>_</code> with <code>-</code>. Invalid flags will be removed automatically from your
@@ -1026,17 +1026,17 @@ Make sure to re-add the removed flags. Affected flags:<!-- -->
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed-2">Removed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#removed-2" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed-2">Removed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#removed-2" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
 <ul>
 <li class="">Flag <code>entity-place</code>. It is replaced by the <code>enderman-griefing</code> flag, which covers picking and placing of blocks by
 endermen.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-17">Fixed<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixed-17" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed-17">Fixed<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixed-17" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
 <ul>
 <li class="">Fix Cuboid areas not saving marked blocks correctly. This does not affect already defined areas.</li>
 </ul>
 <h1>0.0.2.6-beta4</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions">Additions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#additions" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions">Additions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#additions" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
 <ul>
 <li class="">Add logging indicator for reloading YAWP config.</li>
 <li class="">Add logging for invalid default flags for Dimensional and Local Regions provided in <code>yawp-region-defaults.toml</code></li>
@@ -1046,7 +1046,7 @@ endermen.</li>
 <li class="">Add logging for loaded block entity tag identifiers for <code>break_flag_entity_tags</code></li>
 <li class="">Conclusion: Added a bunch of logging to make your and my life easier.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-1">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-1" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-1">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-1" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix region flag list pagination not working</li>
 <li class="">Fix creating a region with marker not prompting the correct parent regions</li>
@@ -1054,52 +1054,52 @@ endermen.</li>
 <li class="">Fix Dimensional Regions not displaying correct amount of Local Regions</li>
 </ul>
 <h1>0.0.2.5-beta4</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class=""><code>command_op_lvl</code> now can be set to 5 to disable the usage of mod commands for any OP</li>
 <li class=""><code>invincible</code> flag now additionally grants knock back protection</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-2">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-2" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-2">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-2" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix <code>invincible</code> flag not working correctly from changes in 0.0.2.3-beta4</li>
 </ul>
 <h1>0.0.2.4-beta4</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-1">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-1" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-1">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-1" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class="">Adjust mod logging representation</li>
 <li class="">Flag <code>break_blocks</code> now also covers entities (includes the <code>break_entities</code> flag).</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removals">Removals<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#removals" class="hash-link" aria-label="Direct link to Removals" title="Direct link to Removals" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removals">Removals<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#removals" class="hash-link" aria-label="Direct link to Removals" title="Direct link to Removals" translate="no">​</a></h2>
 <ul>
 <li class="">Remove flag <code>break_entities</code>. This is now covered with <code>break_blocks</code> flag. The config stays the same.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-3">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-3" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-3">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-3" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix message for missing region permissions not displaying correctly</li>
 <li class="">Attempt to fix NPE for mob grieving flag</li>
 </ul>
 <h1>0.0.2.3-beta4</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-2">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-2" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-2">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-2" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class=""><code>no-pvp</code> and <code>knockback-players</code> flag now denies actions also for owners/members of the region to prevent mischief</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-4">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-4" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-4">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-4" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix <code>invincible</code> and <code>no-pvp</code> flag not working correctly</li>
 </ul>
 <h1>0.0.2.2-beta4</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-3">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-3" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-3">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-3" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class="">Add default entry <code>minecraft:leash_knot</code> to break-entities config</li>
 <li class="">New created regions without owner are no longer disabled by default</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-5">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-5" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-5">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-5" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix dimension region caches not initialized before traveling to dimension</li>
 <li class="">Fix some other misc stuff</li>
 </ul>
 <h1>0.0.2.1-beta4 - Region overlapping hotfix</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-6">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-6" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-6">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-6" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix overlapping regions not correctly considering priority and region member/ownership.
 From now on, regions with the highest priority always should be the deciding region regarding flags.</li>
@@ -1111,7 +1111,7 @@ The following table show how flags are handled for region hierarchies:<!-- -->
 <li class="">Fix removing teams from regions not working properly</li>
 </ul>
 <h1>0.0.2.0-beta4 - CLI pagination &amp; new flags</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-1">Additions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#additions-1" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-1">Additions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#additions-1" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
 <ul>
 <li class="">Add flag <code>use-elytra</code>. This flag prevents players from using the elytra for flying.
 Specifically, it prevents players from starting. It does not force players to land when they are flying in a zone with
@@ -1128,7 +1128,7 @@ located in the <code>yawp-region-defaults.toml</code>. It defaults to 5 entries 
 <li class="">Reintroduced the config option to choose the mods root command: <code>wp_root_command</code>. It's located in
 the <code>yawp-common.toml</code> config. You are able to choose between <code>/wp</code> and <code>/yawp</code>, with <code>/wp</code> being the default.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-4">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-4" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-4">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-4" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class="">Replace most player names in the CLI with player info links</li>
 <li class="">Replace most team names in the CLI with team info links</li>
@@ -1136,7 +1136,7 @@ the <code>yawp-common.toml</code> config. You are able to choose between <code>/
 <li class="">Unify affiliate cli for dimensional and local regions</li>
 <li class="">Unify colors for different actions in the cli</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-7">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-7" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-7">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-7" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix RegionMarker displaying language keys instead of correct tooltip.</li>
 <li class="">Fix player inventory not synced correctly after creation region marker by renaming a stick in an anvil.</li>
@@ -1144,7 +1144,7 @@ the <code>yawp-common.toml</code> config. You are able to choose between <code>/
 <li class="">Fix <code>/wp region &lt;dim&gt; &lt;region&gt; area ...</code> update not checking for parent regions permissions</li>
 </ul>
 <h1>0.0.1.4-beta4 - CLI improvements &amp; priority fixes</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-2">Additions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#additions-2" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-2">Additions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#additions-2" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
 <ul>
 <li class="">Add flag <code>use-entities</code> to prevent general entity interactions</li>
 <li class="">Add flag <code>use-items</code> to prevent general item usage</li>
@@ -1153,30 +1153,30 @@ This should, beside other things, prevent using modded containers in contradicti
 which only covers containers implementing vanilla mechanics.</li>
 <li class="">Add some sanity checks when setting region priority, so prevent mistakes for overlapping regions and region hierarchy</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-5">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-5" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-5">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-5" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class="">Reworked header format (the lines with == ... ==) to be more consistent and add a self-link to each header for easier
 accessibility.</li>
 <li class="">Remove <code>use</code> flag.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-8">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-8" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-8">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-8" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix priority not set properly for Local Regions</li>
 <li class="">Fix some I18n typos and missing translations</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notes">Notes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#notes" class="hash-link" aria-label="Direct link to Notes" title="Direct link to Notes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notes">Notes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#notes" class="hash-link" aria-label="Direct link to Notes" title="Direct link to Notes" translate="no">​</a></h2>
 <ul>
 <li class="">Currently child regions do not overwrite flags of their parents. This means for example when having a parent with the
 break-block flag, which denies breaking blocks, and a child which doesn't have this flag, the flag of the parent still
 covers the child region.</li>
 </ul>
 <h1>0.0.1.3-beta4</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-9">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-9" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-9">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-9" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix mod commands being executable without permission when using new alternative base command yawp</li>
 </ul>
 <h1>0.0.1.2-beta4 - I18n and flag fixes</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-3">Additions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#additions-3" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-3">Additions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#additions-3" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
 <ul>
 <li class="">Add link to Local and Dimensional Region info header to copy region NBT data to clipboard for more easy
 troubleshooting</li>
@@ -1185,19 +1185,19 @@ troubleshooting</li>
 <li class="">Add <code>no-pvp</code> flag. Opposite to the <code>melee-players</code> flag, this flag should cover all pvp dmg</li>
 <li class="">Explosion related flags now work in Local Regions</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-6">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-6" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-6">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-6" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class="">updated english and german translations</li>
 <li class="">cleared <code>break_blocks</code> and <code>place_blocks</code> from the default flags list for new dimensional and new local regions</li>
 <li class=""><code>/wp marker give</code> only works for the executor of the command (if it is a player)</li>
 <li class="">Remove non-functional <code>w_command_alt</code> config. <code>/yawp</code> is not a default alternative for <code>/wp</code></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-10">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-10" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-10">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-10" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix <code>invincible</code> flag not working properly</li>
 </ul>
 <h1>0.0.1.1-beta4</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-11">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-11" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-11">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-11" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix <code>spawning-villager</code> flag working for wandering traders</li>
 </ul>
@@ -1206,7 +1206,7 @@ troubleshooting</li>
 region data, older regions are not supported - sorry!
 Rest assured, once the mod goes from beta to release, these kinds of changes regarding will be kept to a minimum to
 ensure backwards compatibility.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-4">Additions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#additions-4" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-4">Additions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#additions-4" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
 <ul>
 <li class="">Local Region flags are now implemented! Please visit the wiki for a full list of flags and for more information about
 how the Region hierarchy works.</li>
@@ -1219,7 +1219,7 @@ To learn more about the priorities for overlapping regions and region hierarchy 
 <li class="">Add flag <code>spawning-slime</code>, <code>spawning-villager</code>, <code>spawning-trader</code>, <code>drop-loot-player</code>. Visit the wiki for detailed
 information about the flags.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-7">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-7" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-7">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-7" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class="">Spherical Regions are for now disabled. They will come back later with other shapes.</li>
 <li class="">When removing a child region from a Local Region, its new parent will be the Dimensional Region and the child will be
@@ -1231,25 +1231,25 @@ this, though.</li>
 <li class="">Rename <code>attack-*</code> flags to <code>melee-*</code>. They only protect against melee attacks, hence the change.</li>
 <li class="">Disable explosion related flags. They will come back in the next update.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-12">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-12" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-12">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-12" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Various CLI interface fixes regarding visualization and usability</li>
 </ul>
 <h1>0.0.1.0-beta3 - Minor fixes</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-5">Additions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#additions-5" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-5">Additions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#additions-5" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
 <ul>
 <li class="">Implemented missing command for removing regions</li>
 <li class="">Add temporary hint explaining not working local region flags and region hierarchy</li>
 <li class="">Add config option to set default de/activate state for dimensional regions upon creation</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-13">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-13" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-13">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-13" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Fix dimensional flags not loading correctly causing them to not work in 1.18 and 1.19.</li>
 <li class="">Fix new dimensional region created by argument not containing default flags from config.</li>
 <li class="">Fix dimensional region info not showing local region info properly</li>
 </ul>
 <h1>0.0.1.0-beta2 - Local region preview</h1>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-6">Additions<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#additions-6" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="additions-6">Additions<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#additions-6" class="hash-link" aria-label="Direct link to Additions" title="Direct link to Additions" translate="no">​</a></h2>
 <ul>
 <li class="">Add first beta implementation of local regions.
 They come with two different area types: Cuboid and Sphere. More types will come soon!
@@ -1261,12 +1261,12 @@ For a comprehensive command overview take a look at the wiki.</li>
 <li class="">Add new config <code>allow_info_cmds</code> to enable the usage of informative region commands for all players.</li>
 <li class="">Add new config <code>dim_default_flags</code>, replacing <code>default_flags</code> for default flags for new dimensional regions.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-8">Changes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#changes-8" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changes-8">Changes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#changes-8" class="hash-link" aria-label="Direct link to Changes" title="Direct link to Changes" translate="no">​</a></h2>
 <ul>
 <li class="">Command to de-/activate dimensional regions changed from <code>activate</code> to <code>enable</code>.</li>
 <li class="">Config option <code>default_flags</code> is now used to define default flags for local regions.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-14">Fixes<a href="https://z0rdak.github.io/yawp-docs/blog/0.5.1-beta4#fixes-14" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes-14">Fixes<a href="https://z0rdak.github.io/YAWP-Docs/blog/0.5.1-beta4#fixes-14" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
 <ul>
 <li class="">Some minor bug and typo fixes</li>
 </ul>
