@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Region Visualization',
-      img: require('@site/static/img/featured/cli-create-local-region.gif').default,
+      img: require('@site/static/img/featured/visualization-small.png').default,
     description: (
       <>
           Visualize your region boundaries using server-side entities. Just be careful not to visualize too large regions for now.
@@ -43,7 +43,7 @@ const FeatureList: FeatureItem[] = [
 
   {
     title: 'Interactive CLI',
-    img: require('@site/static/img/featured/cli-create-local-region.gif').default,
+    img: require('@site/static/img/featured/cli-impression.png').default,
     description: (
       <>
         Use the interactive CLI with links to execute or copy commands to make your life as region manager even easier.
