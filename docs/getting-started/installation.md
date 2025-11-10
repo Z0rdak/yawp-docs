@@ -1,9 +1,14 @@
 ---
+title: 'Installation'
+description: 'Guide to set up YAWP for your server'
+
 sidebar_label: 'Setting up YAWP'
 sidebar_position: 1
+sidebar_custom_props:
+  customEmoji: 🛠
 ---
 
-# Requirements
+## Requirements
 
 Although we try to limit dependencies, YAWP needs some additional library mods to run. Be sure to have them installed before starting your server with YAWP installed.
 
@@ -11,7 +16,7 @@ Although we try to limit dependencies, YAWP needs some additional library mods t
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) (Fabric only)
 
 
-# Installation 
+## Installation 
 
 YAWP is a server-side mod. You will only need it on your server. 
 Just put the mod file into your `mod` directory and you are ready to go.
@@ -26,7 +31,7 @@ Currently, those quality of life features include
 
 _More client side, but optional, features are planned._
 
-# First start up
+## First start up
 
 After the first startup of your server, YAWP will generate the configuration and some initial region files.
 
