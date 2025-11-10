@@ -9,3 +9,10 @@
   height: 200px;
   width: 200px;
 }
+
+.featureImg {
+  height: 200px;
+  width: 200px;
+
+  mask-image: radial-gradient(circle, black 60%, transparent 70%);
+}

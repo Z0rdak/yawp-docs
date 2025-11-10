@@ -5,54 +5,63 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  img: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Server Side Mod/Plugin',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Region Visualization',
+      img: require('@site/static/img/featured/cli-create-local-region.gif').default,
     description: (
       <>
-          You can run it on a server (or single player open to LAN) and connect with vanilla
-          or modded clients without it being installed on the client side.
+          Visualize your region boundaries using server-side entities. Just be careful not to visualize too large regions for now.
       </>
     ),
   },
+/*
+    {
+        title: 'Enter & Leave messages',
+        img: require('@site/static/img/featured/cli-region-info-flags.png').default,
+        description: (
+            <>
+                Now with region enter and leave messages! <br/> Soon customizable and extendable with actions!
+            </>
+        ),
+    },
+    */
 
   {
-    title: 'Fabric, Forge and NeoForge',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Server side mod',
+      img: require('@site/static/img/featured/logo-shield.png').default,
     description: (
       <>
-        Available for Forge, Fabric and NeoForge. <br/>
-          For more info about supported versions take a look into the docs.
+        You only need to install YAWP on your server (or single player open to LAN). <br/> Players can connect with a modded or vanilla client!
       </>
     ),
   },
 
   {
     title: 'Interactive CLI',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    img: require('@site/static/img/featured/cli-create-local-region.gif').default,
     description: (
       <>
-        YAWP has a interactive CLI with  links to execute or copy commands to make your life as region manager even easier.
+        Use the interactive CLI with links to execute or copy commands to make your life as region manager even easier.
       </>
     ),
   }
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, img, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+        <div className="text--center">
+            <img src={img} className={styles.featureImg} alt="" />
+        </div>
+        <div className="text--center padding-horiz--md">
+            <Heading as="h3">{title}</Heading>
+            <p>{description}</p>
+        </div>
     </div>
   );
 }
