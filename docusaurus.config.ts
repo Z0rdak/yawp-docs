@@ -118,12 +118,12 @@ const config: Config = {
         },
         {
           href: 'https://github.com/Z0rdak/Yet-Another-World-Protector',
-          label: 'Discord',
+          label: 'GitHub',
           position: 'right',
         },
         {
           href:  'https://discord.gg/d7hArKCUtm',
-          label: 'GitHub',
+          label: 'Discord',
           position: 'right',
         },
       ],
