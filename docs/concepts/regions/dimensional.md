@@ -18,9 +18,9 @@ In general, they work like Local Regions, but without an area definition.
 
 As can be seen in the screenshot Dimensional Regions also have a parent region: [_The_ Global Region](global) shown as `yawp:global` here.
 
-The entries after that show all Local Regions and the child regions of this Dimensional Region.
+The entries after that show pagination lists of all Local Regions and the child regions of this Dimensional Region.
 
-How and why those are different? Let's take a look at it with an example hierarchy.
+How and why do those list differ? Let's take a look at it with an example hierarchy.
 
 ![dim-info](../img/cli-region-dim-info-regions-and-childs.png)
 
