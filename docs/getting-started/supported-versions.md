@@ -12,10 +12,8 @@ Below you will find a table of all supported mod loaders and MC versions YAWP su
 The wiki is up-to-date with the latest version of YAWP and tries to maintain most major versions above YAWP `0.6.2-beta1`.
 Please note that this wiki does not include information comprehensive information about all previous versions of YAWP.
 
-Because YAWP is still very actively in development and new features come frequently and changes to existing features are still happening, 
+Because YAWP is still very actively in development and new features getting added frequently and changes to existing features are still happening, 
 it's not possible to maintain all versions.
-
-The latest YAWP version can always be found at the main branch of the [mod repository](https://github.com/Z0rdak/Yet-Another-World-Protector). It is available for the versions marked with :ballot_box_with_check:
 
 This is why, from time to time YAWP will drop support for older versions. This is often due to
 - new bigger MC versions being released
@@ -23,6 +21,8 @@ This is why, from time to time YAWP will drop support for older versions. This i
 - minor versions (like 1.20.2) not being adopted by a wide range of players
 
 ## Version overview
+
+The latest YAWP version can always be found at the main branch of the [mod repository](https://github.com/Z0rdak/Yet-Another-World-Protector). It is available for the versions marked with :ballot_box_with_check:
 
 |  MC-Version |                  Forge                  |        NeoForge         |         Fabric          | Hybrid (Magma/Mohist/etc.) |
 |------------:|:---------------------------------------:|:-----------------------:|:-----------------------:|:--------------------------:| 
