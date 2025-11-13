@@ -175,7 +175,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} YAWP Author Zordak`,
+      copyright: `Copyright © ${new Date().getFullYear()} YAWP contributors`,
     },
     prism: {
       theme: prismThemes.github,
