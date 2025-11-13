@@ -15,15 +15,19 @@ The area of a region is defined by a Cuboid shape (more shapes are planned for t
 The flags defined in the region only work in this confined area. The properties of Local Regions, 
 which distinct them from the other region types are described below.
 
-![](../img/cli-local-region-info-overview.png)
+Sphere:
+![](../img/cli-local-visualization-sphere.png)
+
+Cuboid:
+![](../img/cli-local-visualization-cuboid.png)
 
 ***
 ## Area Properties
 
-![local-region-area](../img/cli-local-region-info-spatial.png)
-
 The Area Properties of a region describe the area the region is restricted to, the teleport position, 
 the marked blocks to define the region area and lastly the type of the area.
+
+![local-region-area](../img/cli-local-sphere-area-info.png)
 
 The AreaType defines the shape of the region. The currently supported shapes are Cuboids and Spheres. 
 Future updates will bring more AreaTypes like Cylinder, Prism and Polygon shapes.
@@ -31,19 +35,26 @@ Future updates will bring more AreaTypes like Cylinder, Prism and Polygon shapes
 ### Shape definitions
 
 - Cuboid areas are defined by marking/supplying the diagonal opposite corner blocks.
+  ![local-region-area](../img/cli-local-cuboid-area-info.png)
+
 - Sphere areas are defined by marking/supplying the center block and the radius of the sphere.
+  ![local-region-area](../img/cli-local-sphere-area-info.png)
 
-The teleport position is automatically set when defining a region. This is a default value, which is the center of the area. 
-It can be overwritten with the command `/yawp region <dim> <region> tp set <Block>` and teleport to by using `/yawp region <dim> <region> tp set <Player>`.
+### Display settings
 
-### Related [Commands](../../commands/region/local-commands)
+![local-region-area](../img/cli-local-sphere-display-settings.png)
 
-- [Creating a region](../../commands/region/dimension-commands#creating-a-region-with-the-cli)
-- [Expanding the area](../../commands/region/local-commands#area-commands)
-- [Setting the area](../../commands/region/local-commands#area-commands)
-- [Setting the teleport position](../../commands/region/local-commands#area-commands)
+### Visualization
 
-***
+![local-region-area](../img/cli-local-sphere-visualization.png)
+
+## Teleport Anchors
+
+![local-region-area](../img/cli-local-sphere-teleport-anchors.png)
+
+![local-region-area](../img/cli-local-sphere-teleport-anchor-visual.png)
+
+
 ## Overlapping regions
 
 Beside having child regions, you will sometimes have overlapping regions which are not directly related as parent or child. 
@@ -52,3 +63,10 @@ These overlapping regions do need to have different priorities to work properly.
 If a region is overlapping with another region, you'll need to adjust the priority for them to make the flags work properly.
 
 **The higher the number, the higher the regions' priority.**
+
+## Related [Commands](../../commands/region/local-commands)
+
+- [Creating a region](../../commands/region/dimension-commands#creating-a-region-with-the-cli)
+- [Expanding the area](../../commands/region/local-commands#area-commands)
+- [Setting the area](../../commands/region/local-commands#area-commands)
+- [Setting the teleport position](../../commands/region/local-commands#area-commands)
