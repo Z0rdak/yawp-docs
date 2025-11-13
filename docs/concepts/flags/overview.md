@@ -1,7 +1,7 @@
 ---
 title: 'What are Flags?'
 description: 'Learn about what flags are and how they work.'
-sidebar_label: 'What are Flags?'
+sidebar_label: 'Overview'
 sidebar_position: 1
 sidebar_custom_props:
   customEmoji: 🏳️‍🌈
