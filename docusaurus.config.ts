@@ -96,7 +96,7 @@ const config: Config = {
       appId: '0606CN2KHQ',
       // Public API key: it is safe to commit it
       apiKey: 'b160c84a72549ec89a61f6e2de231fc9',
-      indexName: 'yawp-wiki-index',
+      indexName: 'YAWP Wiki',
       // Optional: see doc section below
       contextualSearch: true,
       // Optional: path for search page that enabled by default (`false` to disable it)
