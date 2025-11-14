@@ -11,7 +11,7 @@ sidebar_custom_props:
 
 There are three ways of creating a region:
 
-1. Using commands: [`/yawp dim <dim> create local ...` ➡️](dimension-commands.md#creating-a-region-with-the-cli)
+1. Using commands: [`/yawp dim <dim> create local ...` ➡️](dimension-commands.md#local-region-management)
 2. Using shorthand commands: [`/yawp create <name> ...` ➡️](shorthand-commands)
 3. Using the RegionMarker in combination with commands: [`/yawp marker create ...` ➡️](../marker/marker-commands#creating-a-region-with-the-regionmarker)
 

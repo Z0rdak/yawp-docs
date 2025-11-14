@@ -66,7 +66,7 @@ If a region is overlapping with another region, you'll need to adjust the priori
 
 ## Related [Commands](../../commands/region/local-commands)
 
-- [Creating a region](../../commands/region/dimension-commands#creating-a-region-with-the-cli)
+- [Creating a region](../../commands/region/local-commands.md#creating-a-local-region)
 - [Expanding the area](../../commands/region/local-commands#area-commands)
 - [Setting the area](../../commands/region/local-commands#area-commands)
 - [Setting the teleport position](../../commands/region/local-commands#area-commands)
