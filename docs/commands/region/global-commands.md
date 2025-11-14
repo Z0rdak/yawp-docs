@@ -9,9 +9,13 @@ sidebar_custom_props:
 
 # Global Region
 
-The commands for the Global Region begin with `/yawp global <subcmd>`
+The commands for the Global Region begin with `/yawp global ...`. All common region commands apply. 
 
-- All commands from [Commands](overview.md) apply.
-- `/yawp global reset` - resets the Global Region to default
+In the future this section will contain commands to manage the dimensions managed by YAWP. 
 
-![global-dim-regions](../img/cli-region-info-global.png)
+## State commands
+
+```
+/yawp global reset
+```
+Resets the global region to its default values.
