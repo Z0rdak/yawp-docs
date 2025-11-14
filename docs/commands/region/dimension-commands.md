@@ -1,5 +1,4 @@
 ---
-sidebar_label: 'Dimensional Region commands'
 title: 'Command Overview - Dimensional Regions'
 description: 'Command overview to manage Dimensional Regions'
 sidebar_label: 'Dimensional Region'

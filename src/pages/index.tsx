@@ -12,6 +12,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <meta name="algolia-site-verification"  content="C5A53EE783F88445" />
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
