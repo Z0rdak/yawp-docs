@@ -12,8 +12,6 @@ sidebar_custom_props:
 These pages show all mod commands available to manage your regions. 
 The base command for YAWP is `/yawp`.
 
-Usually you would start by display information about the dimension you are standing in (by using `/yawp dim <dim> info`) and go from there with the help of the interactive CLI. This way you can mostly avoid using commands manually.
-
 Refer to the pages below for more information on the commands available for each different sub command:
 
 ## Base commands
