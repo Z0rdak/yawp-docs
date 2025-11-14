@@ -38,6 +38,16 @@ const config: Config = {
     path: 'i18n'
   },
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: 'C5A53EE783F88445',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -77,10 +87,22 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/logo-text.png',
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: '0606CN2KHQ',
+      // Public API key: it is safe to commit it
+      apiKey: 'b160c84a72549ec89a61f6e2de231fc9',
+      indexName: 'yawp-wiki-index',
+      // Optional: see doc section below
+      contextualSearch: true,
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: true
     },
     navbar: {
       title: 'YAWP Wiki',
