@@ -1,28 +1,82 @@
 ---
+title: 'Region default configuration'
+description: 'Configure defaults for region properties.'
+sidebar_label: 'Region defaults'
 sidebar_position: 4
+sidebar_custom_props:
+    customEmoji: 🌍 ⚙️
 ---
+
 # Region default config
 
-* `default_flags` - these are the default region flags for newly created Local Regions. Default is empty.
+**`default_flags`**
 
-  * Example: `default_flags = ["break-blocks", "place-blocks"]`
+```toml
+default_flags = ["break-blocks", "place-blocks"]
+```
+Defines the default flags applied to newly created **Local Regions**.
+Notes:
+* Values: list of flag identifiers
+* Applied only to local regions
+* default: `[]`
+___
 
-* `dim_default_flags` - the same as `default_flags` just only for Dimensional Regions. Default is empty.
+**`dim_default_flags`**
 
-  * Example: `dim_default_flags = ["spawning-animal", "no-pvp", "no-flight"]`
+```toml
+dim_default_flags = ["spawning-animal", "no-pvp", "no-flight"]
+```
+Defines the default flags applied to newly created **Dimensional Regions**.
+Notes:
+* Values: list of flag identifiers
+* Works like `default_flags` but applies only to dimensional regions
+* default: `[]`
+___
 
-* `default_region_priority` - this is the default region priority for newly created regions. This is only important for local, normal regions. Dimensional Regions do not have an explicit priority. Defaults to 10.
+**`default_region_priority`**
 
-  * Example: `default_region_priority = 10`
+```toml
+default_region_priority = 10
+```
+Sets the priority assigned to newly created **Local Regions**.
+Notes:
+* Values: integer
+* Only affects local/normal regions
+* Dimensional regions do not use explicit priorities
+* default: `10`
+___
 
-* `default_region_priority_inc` - this is used for the interactive command line interface to manage local regions. It sets the step value for the QoL links for changing a region's priority. Range 1-1000, defaults to 5.
+**`default_region_priority_inc`**
 
-  * Example: `default_region_priority_inc = 5`
+```toml
+default_region_priority_inc = 5
+```
+Defines the step size used by the interactive CLI when increasing or decreasing a region's priority.
+Notes:
+* Range: `1`–`1000`
+* Used only for QoL shortcuts in CLI priority management
+* default: `5`
+___
 
-* `cli_entries_per_page` - Amount of pagination entries for CLI output of flags, region, children region, players, teams, etc. Range 5-15, defaults to 5.
+**`cli_entries_per_page`**
 
-  * Example: `cli_entries_per_page = 10`
+```toml
+cli_entries_per_page = 5
+```
+Sets the number of entries per page in CLI output for flags, regions, children, players, teams, and more.
+Notes:
+* Range: `5`–`15`
+* Affects all paginated CLI listings
+* default: `5`
+___
 
-* `dim_enable_new` - Decides whether newly created Dimensional Regions are enabled or disabled by default.
+**`dim_enable_new`**
 
-  * Example: `dim_enable_new = true`
+```toml
+dim_enable_new = true
+```
+Determines whether newly created **Dimensional Regions** are enabled by default.
+Notes:
+* Values: `true` / `false`
+* Controls activation state at creation time
+* default: `true`

@@ -1,16 +1,45 @@
 ---
+title: 'Flag config'
+description: 'Configure specific flag properties'
+sidebar_label: 'Flags'
 sidebar_position: 3
+sidebar_custom_props:
+    customEmoji: 🏳️ ⚙️
 ---
-# Flag config
 
-* `covered_block_entities` - This is a list of block-entities, which can be placed and destroyed like a block, but are not automatically covered by the `break-blocks` and `place-blocks` flags. These list includes tile-entities like armor stands, paintings, leash knots and item frames by default.
+**`covered_block_entities`**
 
-    * Example: `covered_block_entities = ["minecraft:armor_stand", "minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame", "minecraft:leash_knot"]`
+```toml
+covered_block_entities = ["minecraft:armor_stand", "minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame", "minecraft:leash_knot"]
+```
+This setting controls block-entities, which can be placed and destroyed like a block, but are not automatically covered by the `break-blocks` and `place-blocks` flags (because they are technically not blocks).
+Notes: 
+- Entries for block-entities from mods must be fully specified. e.g. `"<mod>:<block-entity>"`
+- by default this list includes: armor stands, paintings, leash knots and item frames
+___
 
-* `covered_block_entity_tags` - This is used like the `covered_block_entities` config, but can be provided with tags. This is currently disabled.
+**`remove_entities_for_spawning_flags`**
 
-    * Example: `covered_block_entity_tags = ["botania:floating_flowers", "botania:special_floating_flowers"]`
+```toml
+remove_entities_for_spawning_flags = true
+```
+This setting controls whether entities will be removed inside the affected region when **adding** a spawning flag to a region. 
+Notes: 
+- Entities with the `{PersistenceRequired: 1b}` tag and named entities will not be removed.
+- `true` to remove entities 
+- `false` entities won't get removed
+- default: `true`
+___
 
-* `remove_entities_for_spawning_flags`- #Toggle to remove entities when adding spawning-* flags. Entities with the PersistenceRequired tag will not be removed.
+**`disabled_flags`**
 
-    * Example: `remove_entities_for_spawning_flags = true`
+```toml
+disabled_flags = []
+```
+This setting controls flags which are disabled for flag checks to reduce performance impact. 
+
+Note: This is currently limited to the following flags: 
+- `fluid_flow`
+- `water_flow`
+- `lava_flow`
+___
