@@ -1,5 +1,5 @@
 ---
-title: 'Command Overview - Regions'
+title: 'Command Overview'
 description: 'Learn how to use YAWP commands.'
 sidebar_label: 'Overview'
 sidebar_position: 1
@@ -18,11 +18,11 @@ Refer to the pages below for more information on the commands available for each
 
 Region command overview are listed in [general region commands ➡️](region/overview)
 
-* [`/yawp global ...`  Global Region commands ➡️](region/global-commands.md)
-* [`/yawp dim <dim> ...`  Dimensional Region commands ➡️](region/dimension-commands.md)
-* [`/yawp local <dim> <local> ...`  Local Region commands ➡️](region/local-commands)
-* [`/yawp marker ...`  Marker commands ➡️](marker/marker-commands)
-* [`/yawp flag ...`  Flag commands ➡️](flag/flag-commands)
+* [🌍 `/yawp global ...`  Global Region commands ➡️](region/global-commands.md)
+* [🗾 `/yawp dim <dim> ...`  Dimensional Region commands ➡️](region/dimension-commands.md)
+* [🏡 `/yawp local <dim> <local> ...`  Local Region commands ➡️](region/local-commands)
+* [📍 `/yawp marker ...`  Marker commands ➡️](marker/marker-commands)
+* [🏳️ `/yawp flag ...`  Flag commands ➡️](flag/flag-commands)
 
 ## Tired of typing commands?
 
