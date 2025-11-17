@@ -29,19 +29,3 @@ Currently, those quality of life features include
 - Internationalization (I18n) through resource packs
 
 _More client side, but optional, features are planned._
-
-## First start up
-
-After the first startup of your server, YAWP will generate the configuration and some initial region files.
-
-Take a look at the respective sections of the documentation for more detailed information.
-
-- [Region files](../advanced/region-data)
-- [Configuration files](../config/overview)
-
-
-### TODO: move to cli/I18n section
-
-Installing YAWP on your client provides you with language support (I18n). This is the same as using the resource pack provided in the [YAWP discord server](https://discord.gg/d7hArKCUtm).
-
-You can, of course, also let your server provide it automatically when the clients are connecting (via the `server.properties` file).
