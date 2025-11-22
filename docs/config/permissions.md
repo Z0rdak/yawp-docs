@@ -8,7 +8,7 @@ sidebar_custom_props:
 ---
 # Permission config
 
-#### `command_op_level`
+### `command_op_level`
 
 ```toml
 command_op_level = 4
@@ -24,7 +24,7 @@ Notes:
 - default: `4`
 ___
 
-#### `players_with_permission`
+### `players_with_permission`
 
 ```toml
 players_with_permission = ["614c9eac-11c9-3ca6-b697-938355fa8235"]
@@ -38,7 +38,7 @@ Notes:
 * default: `[]`
 ___
 
-#### `command_block_execution` 
+### `command_block_execution` 
 
 ```toml
 command_block_execution = true
@@ -54,7 +54,7 @@ Notes:
 
 ___
 
-#### `allow_info_cmds`
+### `allow_info_cmds`
 
 ```toml
 allow_info_cmds = true
@@ -66,7 +66,7 @@ Notes:
 * default: `true`
 ___
 
-#### `disable_cmd_for_non_op`
+### `disable_cmd_for_non_op`
 ```toml
 disable_cmd_for_non_op = true
 ```
@@ -82,7 +82,7 @@ Notes:
 * default: `false`
 ___
 
-#### `op_bypass_flags`
+### `op_bypass_flags`
 
 ```toml
 op_bypass_flags = true
@@ -97,7 +97,7 @@ Notes:
 * default: `true`
 ___
 
-#### `hierarchy_ownership`
+### `hierarchy_ownership`
 
 ```toml
 hierarchy_ownership = true
@@ -111,7 +111,7 @@ Notes:
 * default: `true`
 ___
 
-#### `allow_region_tp`
+### `allow_region_tp`
 
 ```toml
 allow_region_tp = true
