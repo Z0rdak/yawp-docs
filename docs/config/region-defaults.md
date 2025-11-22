@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 # Region default config
 
-**`default_flags`**
+#### `default_flags`
 
 ```toml
 default_flags = ["break-blocks", "place-blocks"]
@@ -21,7 +21,7 @@ Notes:
 * default: `[]`
 ___
 
-**`dim_default_flags`**
+#### `dim_default_flags`
 
 ```toml
 dim_default_flags = ["spawning-animal", "no-pvp", "no-flight"]
@@ -33,7 +33,7 @@ Notes:
 * default: `[]`
 ___
 
-**`default_region_priority`**
+#### `default_region_priority`
 
 ```toml
 default_region_priority = 10
@@ -46,7 +46,7 @@ Notes:
 * default: `10`
 ___
 
-**`default_region_priority_inc`**
+#### `default_region_priority_inc`
 
 ```toml
 default_region_priority_inc = 5
@@ -58,7 +58,7 @@ Notes:
 * default: `5`
 ___
 
-**`cli_entries_per_page`**
+#### `cli_entries_per_page`
 
 ```toml
 cli_entries_per_page = 5
@@ -70,7 +70,7 @@ Notes:
 * default: `5`
 ___
 
-**`dim_enable_new`**
+*### `dim_enable_new`
 
 ```toml
 dim_enable_new = true

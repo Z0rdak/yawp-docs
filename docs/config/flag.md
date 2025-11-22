@@ -7,7 +7,7 @@ sidebar_custom_props:
     customEmoji: 🏳️ ⚙️
 ---
 
-**`covered_block_entities`**
+#### `covered_block_entities`
 
 ```toml
 covered_block_entities = ["minecraft:armor_stand", "minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame", "minecraft:leash_knot"]
@@ -18,7 +18,7 @@ Notes:
 - by default this list includes: armor stands, paintings, leash knots and item frames
 ___
 
-**`remove_entities_for_spawning_flags`**
+#### `remove_entities_for_spawning_flags`
 
 ```toml
 remove_entities_for_spawning_flags = true
@@ -31,7 +31,7 @@ Notes:
 - default: `true`
 ___
 
-**`disabled_flags`**
+#### `disabled_flags`
 
 ```toml
 disabled_flags = []

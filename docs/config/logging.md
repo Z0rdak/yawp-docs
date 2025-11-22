@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 # Logging config
 
-**`log_flag_check`**
+#### `log_flag_check`
 
 ```toml
 log_flag_check = false
@@ -22,7 +22,7 @@ Notes:
 * default: `false`
 ___
 
-**`log_flag_result`**
+#### `log_flag_result`
 
 ```toml
 log_flag_result = false
@@ -35,7 +35,7 @@ Notes:
 * default: `false`
 ___
 
-**`log_empty_results`**
+#### `log_empty_results`
 
 ```toml
 log_empty_results = false
@@ -49,7 +49,7 @@ Notes:
 
 ___
 
-**`log_result_values`**
+#### `log_result_values`
 
 ```toml
 log_result_values = ["Denied"]
@@ -61,7 +61,7 @@ Notes:
 * default: `["Denied"]`
 ___
 
-**`log_flag_categories`**
+#### `log_flag_categories`
 
 ```toml
 log_flag_categories = ["player"]
@@ -73,7 +73,7 @@ Notes:
 * default: `["player"]`
 ___
 
-**`log_flags`**
+#### `log_flags`
 
 ```toml
 log_flags = ["break-blocks", "place-blocks"]
