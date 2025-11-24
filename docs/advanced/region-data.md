@@ -1,36 +1,29 @@
 ---
+title: 'Region data'
+description: 'Insights on how and where the region data is saved'
 sidebar_label: 'Region data'
 sidebar_position: 1
+sidebar_custom_props:
+  customEmoji: 🌍💾💻
 ---
 
-# Region Data
+The region data is saved as [NBT](https://minecraft.wiki/w/NBT_format) inside your world’s data directory (see screenshot below).
 
-The region data is stored as [NBT](https://minecraft.wiki/w/NBT_format) in the data directory of your world.
+You can inspect and edit it with external NBT editors, but manual changes are generally a bad idea unless you fully understand the format.
 
-Although there are some editors out there to edit NBT data, I suggest not changing it manually, unless you know what you are doing. 
-It may lead to region data loss.
-
-## Region data saving
-
-The region data is saved automatically
-- on every command that manipulates region data
-- cyclic on set interval
-- graceful server shutdown/client world close
-- running `/save-all` on the server
+YAWP only does minimal validation when loading this data. Invalid edits can corrupt or erase region information.
 
 ## File location
 
-When running YAWP on the client (LAN mode) it is located in `<your-world-name>/data/`.
+- client (LAN mode): it's located in `<your-world-name>/data/`.
+- dedicated server: it's located in `world/data/`.
 
-When running YAWP on a dedicated server, it's located in `world/data/`.
+![](img/region-data-storage.png)
 
-### Legacy
+## Region data structure
 
-Older YAWP versions save the region data in one single file named `yawp-dimensions.dat` in the data directory of the world.
 
-### Post 1.21.5 or MC > 1.20.1 and YAWP >= 0.6.1-beta1
-
-The region data is saved across multiple file, all stored in directory called `yawp` (see [screenshot](./img/new-data-storage.png) below).
+The region data is saved across multiple file, all stored in directory called `yawp`.
 
 - `dimensions.dat` : Stores a list of dimensions/levels managed by YAWP.
 - `global.dat` : Stores the region data for the [Global Region](../concepts/regions/overview)
@@ -46,7 +39,10 @@ For the overworld and nether this would be
 
 These files should match the list of the dimensions/levels in the `dimensions.dat` file.
 
-![](./img/new-data-storage.png)
+## Region data saving
 
-
-
+The region data is saved automatically
+- on every command that manipulates region data
+- cyclic on set intervals (build in server save auto-save)
+- graceful server shutdown/client world close
+- running the `/save-all` command 
