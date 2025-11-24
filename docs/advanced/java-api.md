@@ -10,7 +10,45 @@ sidebar_custom_props:
 
 The YAWP API is a way to interact with the mod and its features. It is designed to be used by other mods to interact with the regions and flags of YAWP.
 
-The API is still in development and will be expanded over time. If you have any suggestions or ideas for the API, feel free to open an issue on [GitHub](https://github.com/Z0rdak/Yet-Another-World-Protector/issues) or share your idea in the **#suggestions** channel on [Discord](https://discord.com/invite/d7hArKCUtm).
+The API is still in development and will be expanded over time. 
+
+If you have any suggestions or ideas for the API, feel free to open an issue on [GitHub](https://github.com/Z0rdak/Yet-Another-World-Protector/issues) or share your idea in the **#suggestions** channel on [Discord](https://discord.com/invite/d7hArKCUtm).
+
+A detailed documentation is still work in progress.
+
+## How to depend on YAWP
+
+To include YAWP as dependency include it by using the `cursemaven` repository.
+
+1. Add the following snippet to your `build.gradle`.
+```groovy
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+}
+```
+
+2. Don't forget to add the mod-loader specific dependency.
+
+The cursemaven site explains how to select a specific file: https://www.cursemaven.com/
+
+The format is `curse.maven:yawp-663276:<fileId>`
+
+```groovy
+dependencies {    
+    //Fabric    
+    modImplementation "curse.maven:yawp-663276:6176022"
+    
+    //Forge
+    implementation fg.deobf("curse.maven:yawp-663276:6117986")
+    
+    //NeoForge
+    implementation "curse.maven:yawp-663276:6176016"
+}
+```
+
+## Where to look
 
 The API is located in the package `de.z0rdak.yawp.api`. 
 
@@ -46,35 +84,3 @@ Contains helpers to check permissions.
 
 Contains helpers to visualize Local Region areas.
 
-
-## Dependencies
-
-To include YAWP as dependency include it by using the `cursemaven` repository.
-
-1. Add the following snippet to your `build.gradle`.
-```groovy
-repositories {
-    maven {
-        url "https://cursemaven.com"
-    }
-}
-```
-
-2. Don't forget to add the mod-loader specific dependency.
-
-The cursemaven site explains how to select a specific file: https://www.cursemaven.com/
-
-The format is `curse.maven:yawp-663276:<fileId>`
-
-```groovy
-dependencies {    
-    //Fabric    
-    modImplementation "curse.maven:yawp-663276:6176022"
-    
-    //Forge
-    implementation fg.deobf("curse.maven:yawp-663276:6117986")
-    
-    //NeoForge
-    implementation "curse.maven:yawp-663276:6176016"
-}
-```
