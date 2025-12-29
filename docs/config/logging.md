@@ -83,3 +83,13 @@ Notes:
 * Values: list of valid flag names
 * Filters log output to only the listed flags
 * default: `[]`
+
+### `log_flags`
+
+```toml
+log_event_details = false
+```
+Enable logging of detailed event info.
+Notes:
+* Values: `true` or `false`
+* default: `false`
