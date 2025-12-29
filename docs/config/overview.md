@@ -13,6 +13,7 @@ The configuration is split in different files, covering different topics.
 * 🏳️ `yawp-flags.toml` - specific flags configuration, which is not yet covered in region data [ ➡️](flag)
 * 📝 `yawp-logging.toml` - logging configuration for flag check and flag check results [ ➡️](logging)
 * 🌍 `yawp-region-defaults.toml` - default region properties configuration [ ➡️](region-defaults)
+* ⚙️ `yawp-features.toml` - enable/disable yawp features [ ➡️](features)
 
 ## Config file location
 
