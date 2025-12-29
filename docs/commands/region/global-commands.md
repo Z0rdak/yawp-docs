@@ -13,6 +13,15 @@ The commands for the Global Region begin with `/yawp global ...`. All common reg
 
 In the future this section will contain commands to manage the dimensions managed by YAWP. 
 
+## Level / Dimension commands
+
+```
+/yawp global track <level>
+```
+Tracks a specific level (dimension) and thus makes it possible to configure the Dimensional Region and create Local Regions in this level.
+
+This is only needed if you have disabled the automatic creation of Dimensional Regions in the configuration - see: [feature config](../../config/features)
+
 ## State commands
 
 ```
