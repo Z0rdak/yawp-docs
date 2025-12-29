@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkyawp_docs=globalThis.webpackChunkyawp_docs||[]).push([[4060],{971:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/yawp-docs/changelog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":10,"blogDescription":"YAWP version blog","blogTitle":"Changelog"}}')}}]);

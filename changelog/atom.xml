@@ -2,11 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://z0rdak.github.io/yawp-docs/changelog</id>
     <title>Yet Another World Protector (YAWP) Blog</title>
-    <updated>2025-10-30T00:00:00.000Z</updated>
+    <updated>2025-12-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://z0rdak.github.io/yawp-docs/changelog"/>
     <subtitle>Yet Another World Protector (YAWP) Blog</subtitle>
     <icon>https://z0rdak.github.io/yawp-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[0.6.3-beta1]]></title>
+        <id>https://z0rdak.github.io/yawp-docs/changelog/0.6.3-beta1</id>
+        <link href="https://z0rdak.github.io/yawp-docs/changelog/0.6.3-beta1"/>
+        <updated>2025-12-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Added]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="added">Added<a href="https://z0rdak.github.io/yawp-docs/changelog/0.6.3-beta1#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added" translate="no">​</a></h2>
+<ul>
+<li class="">Add RegionSpatialCache to index regions in the world based on sub-chunks (sections).</li>
+<li class="">Add PlayerPosTracker to track the position of players</li>
+<li class="">Add RegionEvent.PlayerEnter. It is fired when a player enters a Local Region</li>
+<li class="">Add RegionEvent.PlayerLeave. It is fired when a player leaves a Local Region</li>
+<li class="">Add default title message which is displayed when a player enters/leaves a Local Region. This will be customizable in the future.</li>
+<li class="">Add <code>yawp-features.toml</code> config to enable/disable features.</li>
+<li class="">Add config setting to enable player tracker in <code>yawp-features.toml</code></li>
+<li class="">Add config setting to log detailed event info in <code>yawp-logging.toml</code></li>
+<li class="">Levels (Dimensional Regions and Local Regions for that level) now need to be tracked to be recognized by YAWP.</li>
+<li class="">Add command <code>/yawp global track &lt;level&gt;</code> to track a level so it can be protected like always.</li>
+<li class="">Add config setting to enable/disable the automatic tracking of Levels (Dimensional Regions and Local Regions for that level) in <code>yawp-features.toml</code>. Default is true which will work like before.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changed">Changed<a href="https://z0rdak.github.io/yawp-docs/changelog/0.6.3-beta1#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed" translate="no">​</a></h2>
+<ul>
+<li class="">Rename flag <code>xp-drop-all</code> to <code>drop-xp</code>. This now covers all xp dropping from players killing monsters.</li>
+<li class="">Rework saving to reduce performance impact.</li>
+<li class="">Commands no longer trigger saving of all data, instead specific to the level of the involved region.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="removed">Removed<a href="https://z0rdak.github.io/yawp-docs/changelog/0.6.3-beta1#removed" class="hash-link" aria-label="Direct link to Removed" title="Direct link to Removed" translate="no">​</a></h2>
+<ul>
+<li class="">Remove flags <code>xp-drop-player</code>, <code>xp-drop-other</code>, <code>xp-drop-monsters</code>. This is covered by <code>drop-xp</code>.</li>
+<li class="">Remove flag <code>trample-farmland-other</code>. This is covered by <code>trample-farmland</code>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixed">Fixed<a href="https://z0rdak.github.io/yawp-docs/changelog/0.6.3-beta1#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed" translate="no">​</a></h2>
+<ul>
+<li class="">Fix NPE when updating tp anchor position.</li>
+<li class="">Fix cuboid area not being normalized causing issues with recognizing players entering/leaving.</li>
+<li class="">Fix visualization not being updated when updating region area</li>
+<li class="">Fix visualization not being removed when removing regions.</li>
+<li class="">Fix spammy output when saving region data - should be less verbose now.</li>
+<li class="">Fix NPE when saving region data causing crashes-</li>
+</ul>]]></content>
+        <author>
+            <name>Zordak</name>
+            <uri>https://github.com/Z0rdak</uri>
+        </author>
+        <category label="Changelog" term="Changelog"/>
+        <category label="Beta" term="Beta"/>
+        <category label="Added" term="Added"/>
+        <category label="Changed" term="Changed"/>
+        <category label="Removed" term="Removed"/>
+        <category label="Fixed" term="Fixed"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[0.6.2-beta1]]></title>
         <id>https://z0rdak.github.io/yawp-docs/changelog/0.6.2-beta1</id>
